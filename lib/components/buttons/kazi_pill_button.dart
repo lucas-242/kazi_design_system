@@ -40,7 +40,7 @@ class KaziPillButton extends StatelessWidget {
       foregroundColor: WidgetStateProperty.all<Color>(
         foregroundColor != null ? foregroundColor! : KaziColors.white,
       ),
-      textStyle: WidgetStateProperty.all<TextStyle>(context.titleSmall!),
+      textStyle: WidgetStateProperty.all<TextStyle>(KaziTextStyles.titleSm),
     );
 
     return outlinedButton

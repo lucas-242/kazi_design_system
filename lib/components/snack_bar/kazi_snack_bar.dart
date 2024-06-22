@@ -27,7 +27,7 @@ void showKaziSnackBar(
           padding: const EdgeInsets.all(KaziInsets.md),
           child: Text(
             message,
-            style: context.titleSmall!.copyWith(color: KaziColors.white),
+            style: KaziTextStyles.titleSm.copyWith(color: KaziColors.white),
           ),
         ),
       ),

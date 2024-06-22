@@ -31,7 +31,7 @@ class KaziBackAndPills extends StatelessWidget {
               visible: text != null,
               child: Text(
                 text ?? '',
-                style: context.titleMedium,
+                style: KaziTextStyles.titleMd,
               ),
             )
           ],

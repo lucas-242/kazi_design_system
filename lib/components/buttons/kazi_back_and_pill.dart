@@ -35,7 +35,7 @@ class KaziBackAndPill extends StatelessWidget {
               visible: text != null,
               child: Text(
                 text ?? '',
-                style: context.headlineMedium,
+                style: KaziTextStyles.headlineMd,
               ),
             )
           ],

@@ -19,7 +19,7 @@ class KaziTitleAndPill extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        Text(title, style: context.titleMedium),
+        Text(title, style: KaziTextStyles.titleMd),
         KaziPillButton(
           onTap: onTap,
           child: Text(pillText),

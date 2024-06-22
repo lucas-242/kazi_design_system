@@ -23,8 +23,8 @@ class KaziDialog extends StatelessWidget {
   Widget build(BuildContext context) {
     return AlertDialog(
       key: key ?? const Key('KaziDialog'),
-      title: Text(title, style: context.titleMedium),
-      content: Text(message, style: context.bodyMedium),
+      title: Text(title, style: KaziTextStyles.titleMd),
+      content: Text(message, style: KaziTextStyles.md),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
       actions: [
         KaziPillButton(

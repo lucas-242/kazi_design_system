@@ -75,7 +75,7 @@ class DropdownInput extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(
       item == null || item!.label == '' ? hint : item!.label,
-      style: context.bodyMedium,
+      style: KaziTextStyles.md,
     );
   }
 }
@@ -89,8 +89,8 @@ class DropdownInputDecorator extends DropDownDecoratorProps {
       dropdownSearchDecoration: InputDecoration(
         floatingLabelBehavior: FloatingLabelBehavior.always,
         labelText: labelText,
-        hintStyle: context.bodyMedium,
-        labelStyle: context.bodyMedium,
+        hintStyle: KaziTextStyles.md,
+        labelStyle: KaziTextStyles.md,
         contentPadding: const EdgeInsets.only(left: KaziInsets.md),
         border: const OutlineInputBorder(),
       ),
@@ -118,7 +118,7 @@ class PopupItem extends StatelessWidget {
           left: KaziInsets.md,
           right: KaziInsets.lg,
         ),
-        title: Text(item.label, style: context.bodyMedium),
+        title: Text(item.label, style: KaziTextStyles.md),
       ),
     );
   }
@@ -137,7 +137,7 @@ class DropdownEmpty extends StatelessWidget {
       ),
       child: Text(
         noResultsLabel,
-        style: context.titleSmall,
+        style: KaziTextStyles.titleSm,
       ),
     );
   }
@@ -150,12 +150,12 @@ class SearchFieldProps extends TextFieldProps {
 
   TextFieldProps build(BuildContext context) {
     return TextFieldProps(
-      style: context.bodyMedium,
+      style: KaziTextStyles.md,
       decoration: InputDecoration(
         floatingLabelBehavior: FloatingLabelBehavior.always,
         labelText: searchLabel,
         hintText: searchHint,
-        hintStyle: context.bodyMedium,
+        hintStyle: KaziTextStyles.md,
         contentPadding: EdgeInsets.zero,
         border: const OutlineInputBorder(),
         prefixIcon: const Padding(

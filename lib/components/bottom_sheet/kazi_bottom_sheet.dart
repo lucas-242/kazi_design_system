@@ -26,7 +26,7 @@ class KaziBottomSheet extends StatelessWidget {
         padding: const EdgeInsets.all(KaziInsets.lg),
         child: Column(
           children: [
-            Text(title, style: context.titleMedium),
+            Text(title, style: KaziTextStyles.titleMd),
             KaziSpacings.verticalLg,
             Row(
               mainAxisAlignment: MainAxisAlignment.center,

@@ -70,17 +70,17 @@ class KaziTextFormField extends StatelessWidget {
       onFieldSubmitted: onFieldSubmitted,
       maxLength: maxLength,
       maxLines: maxLines,
-      style: context.bodyMedium,
+      style: KaziTextStyles.md,
       inputFormatters: inputFormatters,
       decoration: InputDecoration(
         counterText: '',
         labelText: labelText,
-        labelStyle: context.labelLarge!.copyWith(
+        labelStyle: KaziTextStyles.labelLg.copyWith(
           color: context.colorsScheme.onSurface,
         ),
         errorMaxLines: 3,
         hintText: hintText.isEmpty ? labelText : null,
-        hintStyle: context.bodyMedium,
+        hintStyle: KaziTextStyles.md,
         prefixIcon: prefixIcon,
         suffixIcon: suffixIcon,
       ),
