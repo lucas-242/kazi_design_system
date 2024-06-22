@@ -208,6 +208,6 @@ abstract class KaziThemeSettings {
         horizontalMargin: KaziInsets.md,
         columnSpacing: KaziInsets.md,
         headingTextStyle: KaziTextStyles.titleSm,
-        dataTextStyle: KaziTextStyles.labelMd,
+        dataTextStyle: KaziTextStyles.md,
       );
 }
