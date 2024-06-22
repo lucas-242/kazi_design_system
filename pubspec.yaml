@@ -1,6 +1,6 @@
 name: kazi_design_system
 description: "A package to handle the Kazi Design System"
-version: 0.0.1
+version: 0.1.0
 homepage:
 
 environment:
