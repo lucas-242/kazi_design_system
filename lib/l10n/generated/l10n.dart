@@ -60,6 +60,16 @@ class KaziLocalizations {
     );
   }
 
+  /// `Address`
+  String get address {
+    return Intl.message(
+      'Address',
+      name: 'address',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `All`
   String get all {
     return Intl.message(
@@ -205,6 +215,16 @@ class KaziLocalizations {
     return Intl.message(
       'Confirm Action',
       name: 'confirmAction',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Contact`
+  String get contact {
+    return Intl.message(
+      'Contact',
+      name: 'contact',
       desc: '',
       args: [],
     );
@@ -375,6 +395,26 @@ class KaziLocalizations {
     return Intl.message(
       'Email',
       name: 'email',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Employee`
+  String get employee {
+    return Intl.message(
+      'Employee',
+      name: 'employee',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Employees`
+  String get employees {
+    return Intl.message(
+      'Employees',
+      name: 'employees',
       desc: '',
       args: [],
     );
@@ -1325,6 +1365,16 @@ class KaziLocalizations {
     return Intl.message(
       'Password reseted successfully',
       name: 'resetedPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Role`
+  String get role {
+    return Intl.message(
+      'Role',
+      name: 'role',
       desc: '',
       args: [],
     );

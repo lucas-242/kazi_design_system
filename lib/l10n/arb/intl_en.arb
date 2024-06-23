@@ -1,5 +1,6 @@
 {
   "add": "Add",
+  "address": "Address",
   "all": "All",
   "alreadyHasAccont": "Already has an account? ",
   "applyFilters": "Apply Filters",
@@ -15,6 +16,7 @@
   "confirm": "Confirm",
   "confirmPassword": "Confirm Password",
   "confirmAction": "Confirm Action",
+  "contact": "Contact",
   "contactEmail": "guimaraeslucas242@gmail.com",
   "currentPassword": "Current Password",
   "date": "Date",
@@ -32,6 +34,8 @@
   "editService": "Edit Service",
   "editServiceType": "Edit Type",
   "email": "Email",
+  "employee": "Employee",
+  "employees": "Employees",
   "errorLaunchUrl": "Could not launch {url}",
   "@errorLaunchUrl": {
     "placeholders": {
@@ -161,6 +165,7 @@
   "removeFilters": "Remove filters",
   "resendEmail": "Resend Email",
   "resetedPassword": "Password reseted successfully",
+  "role": "Role",
   "save": "Save",
   "saveType": "Save Type",
   "saveService": "Save Service",

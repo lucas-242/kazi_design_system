@@ -43,6 +43,7 @@ class MessageLookup extends MessageLookupByLibrary {
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "add": MessageLookupByLibrary.simpleMessage("Adicionar"),
+        "address": MessageLookupByLibrary.simpleMessage("Endereço"),
         "all": MessageLookupByLibrary.simpleMessage("Todos"),
         "alreadyExists": m0,
         "alreadyHasAccont":
@@ -60,6 +61,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "confirmAction": MessageLookupByLibrary.simpleMessage("Confirmar Ação"),
         "confirmPassword":
             MessageLookupByLibrary.simpleMessage("Confirme a Senha"),
+        "contact": MessageLookupByLibrary.simpleMessage("Contato"),
         "contactEmail":
             MessageLookupByLibrary.simpleMessage("guimaraeslucas242@gmail.com"),
         "create": MessageLookupByLibrary.simpleMessage("Criar"),
@@ -83,6 +85,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "editService": MessageLookupByLibrary.simpleMessage("Editar Serviço"),
         "editServiceType": MessageLookupByLibrary.simpleMessage("Editar Tipo"),
         "email": MessageLookupByLibrary.simpleMessage("Email"),
+        "employee": MessageLookupByLibrary.simpleMessage("Colaborador"),
+        "employees": MessageLookupByLibrary.simpleMessage("Colaboradores"),
         "errorLaunchUrl": m1,
         "errorNotFound":
             MessageLookupByLibrary.simpleMessage("Endereço não encontrado."),
@@ -256,6 +260,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "resendEmail": MessageLookupByLibrary.simpleMessage("Reenviar Email"),
         "resetedPassword": MessageLookupByLibrary.simpleMessage(
             "Senha redefinida com sucesso"),
+        "role": MessageLookupByLibrary.simpleMessage("Função"),
         "save": MessageLookupByLibrary.simpleMessage("Salvar"),
         "saveService": MessageLookupByLibrary.simpleMessage("Salvar Serviço"),
         "saveType": MessageLookupByLibrary.simpleMessage("Salvar Tipo"),

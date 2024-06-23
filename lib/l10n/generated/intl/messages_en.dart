@@ -43,6 +43,7 @@ class MessageLookup extends MessageLookupByLibrary {
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "add": MessageLookupByLibrary.simpleMessage("Add"),
+        "address": MessageLookupByLibrary.simpleMessage("Address"),
         "all": MessageLookupByLibrary.simpleMessage("All"),
         "alreadyExists": m0,
         "alreadyHasAccont":
@@ -61,6 +62,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "confirmAction": MessageLookupByLibrary.simpleMessage("Confirm Action"),
         "confirmPassword":
             MessageLookupByLibrary.simpleMessage("Confirm Password"),
+        "contact": MessageLookupByLibrary.simpleMessage("Contact"),
         "contactEmail":
             MessageLookupByLibrary.simpleMessage("guimaraeslucas242@gmail.com"),
         "create": MessageLookupByLibrary.simpleMessage("Create"),
@@ -86,6 +88,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "editService": MessageLookupByLibrary.simpleMessage("Edit Service"),
         "editServiceType": MessageLookupByLibrary.simpleMessage("Edit Type"),
         "email": MessageLookupByLibrary.simpleMessage("Email"),
+        "employee": MessageLookupByLibrary.simpleMessage("Employee"),
+        "employees": MessageLookupByLibrary.simpleMessage("Employees"),
         "errorLaunchUrl": m1,
         "errorNotFound": MessageLookupByLibrary.simpleMessage("Url not found."),
         "errorTimeout": MessageLookupByLibrary.simpleMessage(
@@ -255,6 +259,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "resendEmail": MessageLookupByLibrary.simpleMessage("Resend Email"),
         "resetedPassword": MessageLookupByLibrary.simpleMessage(
             "Password reseted successfully"),
+        "role": MessageLookupByLibrary.simpleMessage("Role"),
         "save": MessageLookupByLibrary.simpleMessage("Save"),
         "saveService": MessageLookupByLibrary.simpleMessage("Save Service"),
         "saveType": MessageLookupByLibrary.simpleMessage("Save Type"),
