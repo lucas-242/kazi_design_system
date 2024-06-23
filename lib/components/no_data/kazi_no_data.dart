@@ -26,7 +26,7 @@ class KaziNoData extends StatelessWidget {
             style: KaziTextStyles.headlineSm,
             textAlign: TextAlign.center,
           ),
-        )
+        ),
       ],
     );
   }

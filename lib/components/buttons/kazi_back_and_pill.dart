@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:kazi_design_system/kazi_design_system.dart';
-import 'package:kazi_design_system/themes/themes.dart';
 
 class KaziBackAndPill extends StatelessWidget {
   const KaziBackAndPill({
@@ -37,7 +36,7 @@ class KaziBackAndPill extends StatelessWidget {
                 text ?? '',
                 style: KaziTextStyles.headlineMd,
               ),
-            )
+            ),
           ],
         ),
         Visibility(

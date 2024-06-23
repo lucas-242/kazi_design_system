@@ -116,7 +116,7 @@ abstract class KaziThemeSettings {
       );
 
   static BottomNavigationBarThemeData _bottomNavigationBarTheme(
-          ColorScheme colors) =>
+          ColorScheme colors,) =>
       BottomNavigationBarThemeData(
         type: BottomNavigationBarType.fixed,
         backgroundColor: colors.surface,
@@ -141,7 +141,7 @@ abstract class KaziThemeSettings {
       );
 
   static FloatingActionButtonThemeData _floatingActionButtonTheme(
-          ColorScheme colors) =>
+          ColorScheme colors,) =>
       FloatingActionButtonThemeData(
         elevation: 0,
         highlightElevation: 0,

@@ -25,7 +25,7 @@ class KaziElevatedButton extends StatelessWidget {
       onPressed: onTap,
       style: ButtonStyle(
         minimumSize: WidgetStateProperty.all<Size>(Size(
-            width ?? context.width * 0.7, height ?? context.height * 0.067)),
+            width ?? context.width * 0.7, height ?? context.height * 0.067,),),
         backgroundColor: backgroundColor != null
             ? WidgetStateProperty.all<Color>(backgroundColor!)
             : null,

@@ -26,7 +26,7 @@ class KaziPillButton extends StatelessWidget {
       shape: WidgetStateProperty.all<RoundedRectangleBorder>(
           RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(25),
-      )),
+      ),),
       minimumSize: WidgetStateProperty.all<Size>(
         fillWidth
             ? const Size.fromHeight(45)

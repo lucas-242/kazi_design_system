@@ -33,7 +33,7 @@ class KaziBackAndPills extends StatelessWidget {
                 text ?? '',
                 style: KaziTextStyles.titleMd,
               ),
-            )
+            ),
           ],
         ),
         if (pills != null) Row(children: pills!),
