@@ -84,10 +84,7 @@ abstract class KaziThemeSettings {
       );
 
   static ListTileThemeData _listTileTheme(ColorScheme colors) =>
-      ListTileThemeData(
-        shape: defaultShape,
-        selectedColor: colors.secondary,
-      );
+      ListTileThemeData(selectedColor: colors.secondary);
 
   static AppBarTheme _appBarTheme(ColorScheme colors) => AppBarTheme(
         elevation: 0,
@@ -116,7 +113,8 @@ abstract class KaziThemeSettings {
       );
 
   static BottomNavigationBarThemeData _bottomNavigationBarTheme(
-          ColorScheme colors,) =>
+    ColorScheme colors,
+  ) =>
       BottomNavigationBarThemeData(
         type: BottomNavigationBarType.fixed,
         backgroundColor: colors.surface,
@@ -141,7 +139,8 @@ abstract class KaziThemeSettings {
       );
 
   static FloatingActionButtonThemeData _floatingActionButtonTheme(
-          ColorScheme colors,) =>
+    ColorScheme colors,
+  ) =>
       FloatingActionButtonThemeData(
         elevation: 0,
         highlightElevation: 0,
