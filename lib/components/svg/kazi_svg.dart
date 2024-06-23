@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
-class ImusicaSvg extends StatelessWidget {
-  const ImusicaSvg(
+class KaziSvg extends StatelessWidget {
+  const KaziSvg(
     this.svg, {
     super.key,
     this.height,
