@@ -1,6 +1,6 @@
 name: kazi_design_system
 description: "A package to handle the Kazi Design System"
-version: 0.1.1
+version: 0.2.0
 homepage:
 
 environment:
@@ -12,6 +12,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_masked_text2: ^0.9.1
+  flutter_svg: ^2.0.10+1
   google_fonts: ^6.2.1
   intl: ^0.19.0
   webview_flutter: ^4.8.0
