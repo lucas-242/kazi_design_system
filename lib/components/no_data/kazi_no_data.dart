@@ -18,7 +18,7 @@ class KaziNoData extends StatelessWidget {
       children: [
         if (navbar != null) navbar!,
         if (navbar != null) SizedBox(height: context.height * 0.12),
-        Image.asset(KaziAssets.noData),
+        Image.asset(KaziImageAssets.noData, package: 'kazi_design_system'),
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: KaziInsets.lg),
           child: Text(
