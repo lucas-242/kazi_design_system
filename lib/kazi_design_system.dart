@@ -19,5 +19,6 @@ export 'components/scroll/kazi_scroll_behavior.dart';
 export 'components/scroll/kazi_single_scroll_view.dart';
 export 'components/snack_bar/kazi_snack_bar.dart';
 export 'components/snack_bar/kazi_snack_bar_type.dart';
+export 'components/svg/kazi_svg.dart';
 export 'components/webview/kazi_webview.dart';
 export 'l10n/generated/l10n.dart';
