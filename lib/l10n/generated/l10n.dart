@@ -19,7 +19,7 @@ class KaziLocalizations {
 
   static KaziLocalizations get current {
     assert(_current != null,
-        'No instance of KaziLocalizations was loaded. Try to initialize the KaziLocalizations delegate before accessing KaziLocalizations.current.',);
+        'No instance of KaziLocalizations was loaded. Try to initialize the KaziLocalizations delegate before accessing KaziLocalizations.current.');
     return _current!;
   }
 
@@ -42,7 +42,7 @@ class KaziLocalizations {
   static KaziLocalizations of(BuildContext context) {
     final instance = KaziLocalizations.maybeOf(context);
     assert(instance != null,
-        'No instance of KaziLocalizations present in the widget tree. Did you add KaziLocalizations.delegate in localizationsDelegates?',);
+        'No instance of KaziLocalizations present in the widget tree. Did you add KaziLocalizations.delegate in localizationsDelegates?');
     return instance!;
   }
 
